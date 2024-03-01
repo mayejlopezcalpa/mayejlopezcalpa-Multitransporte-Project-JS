@@ -1,0 +1,78 @@
+
+/* CSS RESERVAS - FORMULARIO DE CONTACTO */
+
+.contenedorFormularioPrincipal {
+    display: grid;
+    grid-template-areas: "formulario formularioContacto" "formulario formularioTelefonos" "formulario formularioEmail" "formulario formularioMapa";
+    grid-template-columns: 2fr 1fr;
+}
+  
+form {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    padding: 20px;
+    grid-area: formulario;
+}
+  
+label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #343a40;
+}
+  
+.contenedorFormularioCampos {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #6b705c;
+    border-radius: 10px;
+    font-size: 12px;
+  
+    &:focus {
+      background-color: #e5e6e4;
+    }
+}
+ 
+.btnFormularioRevervarCotizar {
+    background-color: $color-principal;
+    color: $title-color;
+    margin: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border-color: #003e1f;
+    font-size: 12px;
+    width: auto;
+    cursor: pointer;
+    display: inline;
+    background-image: linear-gradient(to bottom, #003e1f, #03703a);
+}
+  
+.contenedorFormularioContacto {
+    border-top: #6b705c 2px dotted;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 10px;
+    align-self: self-end;
+    grid-area: formularioContacto;
+}
+  
+.contenedorFormularioTelefonos {
+    border-top: #6b705c 2px dotted;
+    border-bottom: #6b705c 2px dotted;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 10px;
+    align-self: first baseline;
+    grid-area: formularioTelefonos;
+}
+  
+iframe {
+    margin-right: 50px;
+    margin-left: 70px;
+    padding: 10px;
+    align-self: center;
+    grid-area: formularioMapa;
+}  

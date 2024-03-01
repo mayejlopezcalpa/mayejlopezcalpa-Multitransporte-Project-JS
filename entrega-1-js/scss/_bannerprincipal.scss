@@ -1,0 +1,67 @@
+
+/* CSS BANNER PRINCIPAL NOSOTROS */
+
+.contenedorSlider {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+  
+    ul {
+      display: flex;
+      animation: cambio 5s infinite;
+    }
+  
+    li {
+      list-style: none;
+      width: 100px;
+    }
+  
+    img {
+      height: calc(100vh - 100px);
+    }
+}
+  
+.contenedorBannerPrincipalImg {
+    border-top: 2px solid #283618;
+    border-radius: 4px;
+    height: 180px;
+    width: 500px;
+    margin: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #283618;
+    color: #fffcf2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 95%;
+    max-width: 90%;
+}
+  
+@keyframes cambio {
+    0% {
+      margin-left: 300%;
+    }
+  
+    25% {
+      margin-left: -100%;
+    }
+  
+    50% {
+      margin-left: -200%;
+    }
+  
+    75% {
+      margin-left: -300%;
+    }
+  
+    100% {
+      margin-left: -300%;
+    }
+}  

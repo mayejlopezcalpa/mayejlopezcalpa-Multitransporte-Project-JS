@@ -1,0 +1,35 @@
+
+/* CSS NOSOTROS */
+
+.contenedorServiciosHomePrincipal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+.contenedorServiciosHome {
+    border: 4px solid $color-principal;
+    border-radius: 4px;
+    margin: 30px;
+    padding: 1px;
+    text-align: center;
+  
+    p {
+      color: #343a40;
+      text-align: left;
+      padding: 10px;
+      font-size: 13px;
+    }
+}
+  
+.contenedorServiciosHomeImg {
+    display: block;
+    width: 100%;
+    height: auto;
+  
+    &:hover {
+      background-color: #aacc00;
+      border-color: #aacc00;
+      margin: #0000;
+    }
+}  

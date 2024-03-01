@@ -1,0 +1,89 @@
+
+/* CSS GENERALES TRANSVERSALES */
+
+body {
+    background-color: #e9edc9;
+    font-family: 'Noto Sans', sans-serif;
+}
+  
+main {
+    margin: auto;
+    padding: auto;
+}
+  
+h1 {
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ccd5ae;
+    font-size: 23px;
+    font-weight: bold;
+}
+  
+h2 {
+    background-color: $color-principal;
+    color: #ffff;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+  
+h4 {
+    background-color: $color-principal;
+    color: $title-color;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+  
+.textoPrincipal {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    margin: 5px;
+}
+  
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $title-color;
+}
+  
+.logo {
+    width: 230px;
+    cursor: pointer;
+    grid-area: logo;
+}
+  
+.btnRevervarCotizar {
+    background-color: #55a630;
+    color: $title-color;
+    margin: 10px;
+    padding: 10px 10px;
+    border-radius: 6px;
+    border-color: #55a630;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 1s;
+  
+    &:hover {
+      background-color: #aacc00;
+      border-color: #aacc00;
+      height: 40px;
+      width: 170px;
+    }
+}  
+
+.navbar-toggler {
+    background-color: #ffff;
+}
+
+.card-title {
+    color: #ffff;
+}

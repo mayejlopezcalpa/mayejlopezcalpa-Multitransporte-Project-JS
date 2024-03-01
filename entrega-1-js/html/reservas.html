@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Con una amplia gama de vehículos y planes de transporte, estamos listos para realizar su viaje o traslado perfecto sin complicaciones. ¡Reserve ahora y viva una experiencia de transporte premium!">
+    
+    <meta name="keywords" content="Transporte terrestre de pasajeros, transporte turístico, transporte para todo tipo de eventos, transporte escolar, transporte para funcionarios, transportes para empleados, transporte puerta a puerta">
+    
+    <!-- CSS Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    
+    <!-- HEADER -->
+    <header>
+        
+        <p class="contenedorTelefonosPrincipal">Teléfonos: 6015878 - 3185170848</p>
+                
+        <!-- Menú de Navegación -->
+        
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="../img/Logo Multritransportes.png" alt="Logo Multitransporte S.A.S - Servicio de transporte personalizado">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto menNav">
+                        <li class="nav-item">
+                            <a class="nav-link menuNav" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="planes.html">Planes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="vehiculos.html">Vehículos</a>
+                        </li>            
+                        <li class="nav-item">
+                        <a class="nav-link" href="reservas.html">Reservas y Cotizaciones</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+
+    <!-- FORMULARIO -->
+    <main>
+
+        <h1>Reservas y Cotizaciones</h1>
+
+        <p class="textoPrincipal">Por favor diligencie el siguiente formulario y con gusto le ayudaremos.</p>
+
+        <div class="contenedorFormularioPrincipal">               
+
+        <form>        
+
+        <!-- Datos Contacto -->
+        <div>        
+        <h4>Datos de contacto:</h4>
+    
+        <label for="">Nombre y apellido:</label>
+        <input class="contenedorFormularioCampos" type="text" placeholder="Ej. Antonio Fernández" id="Nombre">
+                
+        <label for="">Celular:</label>
+        <input class="contenedorFormularioCampos" type="number" placeholder="Ej. 3002909090" id="Celular">
+                
+        <label for="">Correo electrónico:</label>
+        <input class="contenedorFormularioCampos" type="email" placeholder="Ej. antonio.fernandez@gmail.com">
+        </div>
+
+        <!-- Datos Servicio -->
+        <div>
+        <h4>Datos del Servicio:</h4>
+    
+        <label for="">Tipo de vehículo:</label>
+        <select>
+          <option class="contenedorFormularioCampos" value="Bus">Bus (35 a 40 pasajeros)</option>
+          <option class="contenedorFormularioCampos" value="Buseta">Buseta (20 a 25 pasajeros)</option>
+          <option class="contenedorFormularioCampos" value="Microbus">Microbus (12 a 19 pasajeros)</option>
+        </select> <br> <br/>
+
+        <label for="">Lugar de origen:</label>
+        <input class="contenedorFormularioCampos" type="text" placeholder="Ciudad y dirección de recogida" id="Origen">
+        
+        <label for="">Lugar destino:</label> 
+        <input class="contenedorFormularioCampos" type="text" placeholder="Ciudad y dirección donde se dirige" id="Destino">         
+               
+        <label for="">Fecha de salida: </label>
+        <input class="contenedorFormularioCampos" type="date" name="Fecha de salida" id="Fecha de salida">        
+        
+        <label for="">Fecha de regreso:</label>
+        <input class="contenedorFormularioCampos" type="date" name="Fecha de regreso" id="Fecha de regreso">
+        
+        <label for="">Observaciones adicionales:</label>
+        <textarea class="contenedorFormularioCampos" name="" id="" cols="10" rows="10"></textarea>
+        </div>
+
+        <!-- Botón Cotizar -->
+        <div>    
+        <input class="btnFormularioRevervarCotizar" type="submit" value="Enviar"> 
+        <input class="btnFormularioRevervarCotizar" type="submit" value="Restablecer"> 
+        </div>
+
+        </form>   
+
+    
+    <!-- CONTACTO EMPRESA -->
+
+    <div class="contenedorFormularioTelefonos">
+        <p><strong>Teléfono:</strong> (571) 6015878</p>
+        <p><strong>Teléfono:</strong> (571) 6015879</p>
+        <p><strong>Celular:</strong> (57) 3185170848</p>
+        <br></br>
+        <p><strong>Correo:</strong> comercial@multitransportessas.com</p> 
+    </div>
+            
+    <div class="contenedorFormularioContacto">
+        <p><strong>Dirección:</strong> Calle 46F No. 171 - 37</p>
+    </div>
+
+   
+    <!-- UBICACIÓN MAPA -->
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5986189224823!2d-74.12098244620658!3d4.665432180915465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b485f78575b%3A0xd3ac35d2d8ad609!2sMULTITRANSPORTE%20Y%20LOGISTICA%20DE%20COLOMBIA%20MLC!5e0!3m2!1ses-419!2sco!4v1698016784617!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer style="background-color: #003e1f">
+
+        <div class="container p-4">
+        <div class="row">
+
+        <!-- Menú Footer -->
+
+        <nav class="footerMenu">
+        <ul>
+            <li class="contenedorFooter"><a href="../index.html">Nosotros</a></li>
+            <li class="contenedorFooter"><a href="servicios.html">Servicios</a></li>
+            <li class="contenedorFooter"><a href="planes.html">Planes</a></li>
+            <li class="contenedorFooter"><a href="vehiculos.html">Vehículos</a></li>
+            <li class="contenedorFooter"><a href="reservas.html">Reservas y Cotizaciones</a></li>
+        </ul>
+        </nav>  
+
+        <!-- Logo Miniterio de Educación Footer -->      
+        <div class="container my-1 contenedorFooterInfo">      
+        
+            <div class="col-lg-3 col-md-6 mb-4">
+                <table class="table" style="border-color: #666;">
+                    <img class="contenedorFooterLogo" src="../img/Logo_Ministerio_de_Transporte_Colombia.png" height="70" alt="Logo Ministerio de Transporte de Colombia"
+                            loading="lazy" />
+                </table>
+            </div>       
+        
+        <!-- Logo Miniterio de Educación Footer -->      
+
+            <div class="col-lg-6 col-md-12 mb-4">
+                <p>
+                    Estamos autorizados por la resolución 669 de 2018 expedida por el Ministerio de Transporte.
+                    Garantizamos su seguridad en cualquier recorrido a nivel nacional.
+                </p>
+            </div>
+                
+            <div class="col-lg-3 col-md-6 mb-4">
+                <p>Calle 46F No. 171 - 37 Barrio el Trianón</p>
+                <p>Email: comercial@multitransportessas.com</p>
+                <p>Teléfonos: 6015878 - 3185170848</p>
+                <p>Bogotá - Colombia</p>
+            </div>     
+                
+        </div>
+        </div>        
+        
+        <!-- Copyright -->
+        <div class="text-center p-3 contendedorDerechosReservados" style="background-color: rgba(242, 239, 239, 0.2);">
+            © 2023 Copyright
+        </div>
+        
+    </footer>        
+        
+
+    <!-- WHATSAPP FLOTANTE -->
+    <div>
+    <img class="whatsapp" src="../img/whatsapp.png" alt="Contáctanos por whatsapp">
+    <a href="https://api.whatsapp.com/send?phone=573012667837"></a>
+    </div>
+    
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

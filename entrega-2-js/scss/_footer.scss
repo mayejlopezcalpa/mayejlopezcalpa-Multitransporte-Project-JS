@@ -1,0 +1,39 @@
+
+/* CSS FOOTER */
+
+footer {
+    margin: auto;
+    padding: 5px;
+    font-size: x-small;
+    background-color: $color-principal;
+}
+  
+.contenedorFooter {
+    display: inline-block;
+    font-size: 10px;
+}
+  
+.contenedorFooterInfo {
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    font-size: 11px;
+    color: $title-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+  
+.contenedorFooterLogo {
+    border-top: #6b705c 2px solid;
+    border-bottom: #6b705c 2px solid;
+    width: auto;
+}
+  
+.contendedorDerechosReservados {
+    color: $title-color ;
+    text-align: center;
+    font-size: 10px;
+}  

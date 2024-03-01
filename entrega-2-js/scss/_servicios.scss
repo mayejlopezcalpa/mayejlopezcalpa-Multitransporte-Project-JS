@@ -1,0 +1,47 @@
+
+/* CSS SERVICIOS */
+
+.contenedorServiciosPrincipal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+.contenedorServicios {
+    border: 1px solid #bec8c3;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 1px;
+    text-align: center;
+    width: auto;
+    height: auto;
+  
+    p {
+      color: #343a40;
+      text-align: left;
+      padding: 10px;
+      font-size: 13px;
+    }
+}
+  
+.contenedorServiciosImg {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}  
+
+.row {
+    height: 100%;
+  }
+
+  .textoOnepiece {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .texto {
+    color: $title-color;
+    text-align: left;
+  }
